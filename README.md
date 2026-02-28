@@ -24,7 +24,7 @@ Uber is facing a **58% service failure rate**. This analysis diagnoses whether t
 
 ## 🧪 Methodology & Analytical Approach
 * **Data Normalization:** Standardized inconsistent date delimiters (`/` and `-`) to ensure chronological integrity.
-* **Feature Engineering:** Engineered raw timestamps into **5 Strategic Time-Bins** to isolate peak-hour failure modes.
+* **Feature Engineering:** Engineered raw timestamps into **4 Strategic Time-Bins** to isolate peak-hour failure modes.
 * **Logistics Logic:** Classified `NaN` values as **Inventory Stockouts** rather than missing data to measure true supply-demand gaps.
 * **Multivariate EDA:** Correlated trip status with geographic nodes to identify mirrored bottlenecks.
 
