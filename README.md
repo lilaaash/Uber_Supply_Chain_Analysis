@@ -20,10 +20,18 @@ Uber is facing a **58% service failure rate**. This analysis diagnoses whether t
 * **Libraries:** Pandas (Cleaning), Seaborn & Matplotlib (Visuals).
 * **Environment:** Google Colab & GitHub.
 
-## 🧪 Analytical Approach
-1. **Wrangling:** Standardized mixed date formats into uniform datetime objects.
-2. **Feature Engineering:** Segmented data into "Morning," "Evening," and "Late Night" bins to track peak-hour behavior.
-3. **Visualization:** Used categorical plots to isolate failure types by location and time.
+## 🧪 Methodology & Analytical Approach
+
+### 1. Data Cleaning & Preparation
+* **Temporal Normalization:** Developed parsing logic to standardize inconsistent date delimiters (handling `/` and `-`), ensuring 100% chronological accuracy.
+* **Structural Integrity:** Conducted a missing value audit, identifying `NaN` values in `Driver ID` as a business signal for **Inventory Stockouts** rather than data errors.
+* **Feature Engineering:** Derived a `Request Hour` attribute to discretize the 24-hour cycle into **5 Strategic Time-Bins** for granular bottleneck identification.
+
+🧪 Methodology & Analytical Approach
+* **Data Normalization:** Standardized inconsistent date delimiters (`/` and `-`) to ensure chronological integrity.
+* **Feature Engineering:** Engineered raw timestamps into **5 Strategic Time-Bins** to isolate peak-hour failure modes.
+* **Logistics Logic:** Classified `NaN` values as **Inventory Stockouts** rather than missing data to measure true supply-demand gaps.
+* **Multivariate EDA:** Correlated trip status with geographic nodes to identify mirrored bottlenecks.
 
 ## 📉 Summary of Analysis & Visualizations
 > **Insight:** We found a mirrored bottleneck. City failures are driven by cancellations in the morning; Airport failures are driven by car shortages in the evening.
