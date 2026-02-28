@@ -29,7 +29,7 @@ Uber is facing a **58% service failure rate**. This analysis diagnoses whether t
 ## 📉 Summary of Analysis & Visualizations
 > **Insight:** We found a mirrored bottleneck. City failures are driven by cancellations in the morning; Airport failures are driven by car shortages in the evening.
 
-![Executive Dashboard](ExecutiveDashboard.png)
+![Executive Dashboard](ExecutiveSummaryChart.png)
 
 ## 🚀 Strategic Recommendations
 * **Morning (City):** Incentivize airport-bound trips to prevent cancellations.
