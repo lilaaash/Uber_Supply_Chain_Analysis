@@ -20,13 +20,6 @@ Uber is facing a **58% service failure rate**. This analysis diagnoses whether t
 * **Libraries:** Pandas (Cleaning), Seaborn & Matplotlib (Visuals).
 * **Environment:** Google Colab & GitHub.
 
-## 🧪 Methodology & Analytical Approach
-
-### 1. Data Cleaning & Preparation
-* **Temporal Normalization:** Developed parsing logic to standardize inconsistent date delimiters (handling `/` and `-`), ensuring 100% chronological accuracy.
-* **Structural Integrity:** Conducted a missing value audit, identifying `NaN` values in `Driver ID` as a business signal for **Inventory Stockouts** rather than data errors.
-* **Feature Engineering:** Derived a `Request Hour` attribute to discretize the 24-hour cycle into **5 Strategic Time-Bins** for granular bottleneck identification.
-
 🧪 Methodology & Analytical Approach
 * **Data Normalization:** Standardized inconsistent date delimiters (`/` and `-`) to ensure chronological integrity.
 * **Feature Engineering:** Engineered raw timestamps into **5 Strategic Time-Bins** to isolate peak-hour failure modes.
