@@ -15,6 +15,8 @@ Uber is facing a **58% service failure rate**. This analysis diagnoses whether t
 * **Nodes:** City and Airport pickup points.
 * **Attributes:** Timestamps, Trip Status, and Driver IDs.
 
+!
+
 ## 🛠️ Tools Used
 * **Language:** Python 3.x
 * **Libraries:** Pandas (Cleaning), Seaborn & Matplotlib (Visuals).
@@ -31,13 +33,19 @@ Uber is facing a **58% service failure rate**. This analysis diagnoses whether t
 
 ![Executive Dashboard](ExecutiveSummaryChart.png)
 
-## 🚀 Strategic Recommendations
-* **Morning (City):** Incentivize airport-bound trips to prevent cancellations.
-* **Evening (Airport):** Pre-position "idle" city drivers to the airport 30 minutes before peak flight landings.
+## 🚀 Strategic Recommendations (High-Impact)
+* **Dynamic Incentive Calibration:** Implement a **"Long-Trip Premium"** for City drivers (5 AM - 9 AM) to offset "deadhead" return costs and eliminate morning cancellations.
+* **Pre-emptive Inventory Staging:** Deploy a **Predictive Positioning** strategy to move idle vehicles to the Airport 45 minutes prior to peak evening flight arrivals.
+* **Surge Pricing Recalibration:** Apply automated surge multipliers specifically to Airport-bound trips during morning peaks to align driver supply with high-effort routes.
+* **Driver Loyalty Rewards:** Offer "Consistency Bonuses" for drivers who maintain a <10% cancellation rate during the critical morning window in the City node.
 
-## 📦 Deliverables
-1. **Interactive Notebook:** [View on Google Colab](PASTE_YOUR_COLAB_URL_HERE)
-2. **Cleaned Data:** Available in the repository root.
+## 🏁 Conclusion
+This analysis demonstrates that Uber's 58% fulfillment gap is not a result of a general driver shortage, but a **geographic and temporal misalignment** of supply. By addressing the behavioral barriers in the City (Morning) and the inventory shortages at the Airport (Evening), Uber can significantly increase its service level without necessarily increasing its total fleet size. Transitioning from reactive dispatching to **predictive rebalancing** is the key to capturing lost revenue and improving long-term customer retention.
+
+## 📂 Project Assets & Data Access
+* **Interactive Notebook:** [Direct Link to Google Colab]([PASTE_YOUR_COLAB_URL_HERE](https://colab.research.google.com/github/lilaaash/Uber_Supply_Chain_Analysis/blob/main/Uber_Supply_Chain_Analysis.ipynb))
+* **Raw Dataset:** [View Uber_Request_Data.csv](./Uber_Request_Data.csv)
+* **Cleaned Dataset:** [View Uber_Request_Data.csv](./Uber_Request_Data.csv)
 
 ## 📚 Data Source & Citation
 * **Author:** Manish Kumar (UpGrad/IIIT-B).
