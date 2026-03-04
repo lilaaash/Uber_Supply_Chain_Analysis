@@ -1,6 +1,6 @@
 # 🚕 Uber Supply Chain: Solving the 58% Fulfillment Gap
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([PASTE_YOUR_COLAB_URL_HERE](https://colab.research.google.com/github/lilaaash/Uber_Supply_Chain_Analysis/blob/main/Uber_Supply_Chain_Analysis.ipynb))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/lilaaash/Uber_Supply_Chain_Analysis/blob/main/Uber_Supply_Chain_Analysis.ipynb](https://colab.research.google.com/github/lilaaash/Uber_Supply_Chain_Analysis/blob/main/Uber_Supply_Chain_Analysis.ipynb))
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Industry](https://img.shields.io/badge/Industry-Logistics%20%26%20Supply%20Chain-06C167)
 
