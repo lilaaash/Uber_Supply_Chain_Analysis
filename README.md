@@ -15,8 +15,6 @@ Uber is facing a **58% service failure rate**. This analysis diagnoses whether t
 * **Nodes:** City and Airport pickup points.
 * **Attributes:** Timestamps, Trip Status, and Driver IDs.
 
-!
-
 ## 🛠️ Tools Used
 * **Language:** Python 3.x
 * **Libraries:** Pandas (Cleaning), Seaborn & Matplotlib (Visuals).
